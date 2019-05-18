@@ -55,12 +55,101 @@ body {
     padding: 10px; 
   }*/
 
+  /* for contact us tab start*/
+  
+#side-nav {
+  width: 25%;
+  float: right;
+  background-color: grey;
+  background-image: linear-gradient( grey, white); 
+}
+
+#about-us{
+  float: right;
+  width: 37.5%;
+  /* padding: 0px 5px; */
+}
+#details{
+  float: right;
+  width: 37.5%;
+  /* padding: 0px 5px; */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.contact-us-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.blue-bold-text {
+  font-weight: bold;
+  color: blue;
+  font-size: 1.5em;
+}
+
+.black-bold-text{ 
+  font-weight: bold;
+  
+}
+
+
+label{
+  display: inline-block;
+  float: right;
+  clear: right;
+  width: 90px;
+  text-align: right; /* right  - because it close to the inputs*/
+}
+input {
+display: inline-block;
+float: right;
+}
+textarea {
+  display: inline-block;
+  float: right;
+  font-size: 1em;
+  } 
+  .send  {
+    background-color: blue; 
+    border: none;
+    color: white;
+   text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 4px 7px;
+  }
+
+  .send:hover {
+    background-color:yellow; 
+    color: black;
+  }
+
+  /* for contact us tab end*/
+  
   nav {
     width: 100%;
   float: right;
     background-color: grey;
+     }
+ section.search {
+   margin-right: 280px;
+    margin-top: 15px;
   }
-  
+
+  .search-lng {
+ text-decoration: none;
+ color:white;
+ text-weight: bold;
+
+  }
+
   nav > ul {
     padding: 0;
   }
