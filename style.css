@@ -4,13 +4,17 @@ body {
     /* padding-bottom: 38px; */
     background: #fff;
     font-family: 'Arial (Hebrew)', Arial;
-    font-size: 12px;
+    font-size: 12px; 
+    margin-bottom: 50px;
 }
   
   * {
     box-sizing: border-box;
   }
-   
+  #main {
+        max-width: 800px;
+        margin: auto;
+        }
   .search {
     position : fixed;
     top: 0;
@@ -132,7 +136,14 @@ body {
     float: left;
     width: 291px;
     height: 354px;
-}
+    /* border-radius: 0px 0px 20px 0; */
+  } 
+
+
+    .cube1 {
+          border-radius: 0px 0px 20px 0;
+    }
+  
 /*  
   .cube-image-man {
     background-image: url("/images/1908364606615453350.JPG");
@@ -179,19 +190,32 @@ body {
     right: 0;
     color: white;
   }
-  /* .cube1 {
-    position: absolute;
-        border-radius: 0px 0px 20px 0;
-  }
-
-  div.cube {
+  
+  /* div.pic-cubes {
     margin: 5px;
      float: right;
      position: absolute;
-    /* width: 33%; */
+    width: 33%; 
   } 
+  .pic-cubes::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+    */
+  .container {
+    position: relative;
+    text-align: left;
+  }
+  
+  .cube-text {
+         position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
+    
+  
 
-   
   .row:after {
     content: "";
     display: table;
